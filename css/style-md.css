@@ -1,0 +1,171 @@
+@media screen and (min-width: 840px) {
+
+    .section_title > hr {
+        width: 5%;
+    }
+    
+/*
+
+NAVIGATION
+
+*/
+    
+    .nav_list {
+        position: absolute;
+        right: 0.5em;
+    }
+    .nav_list > li {
+        display: inline-block;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+    }
+    /*.nav_list > li > hr {
+        padding-top: 0.1em;
+        width: 20px;
+    } */
+    
+    .nav_list > li > hr {
+        display: none;
+    }
+    
+    .nav_list_dash {
+        background-color: black;
+        height: 2px;
+        width: 20px;
+        margin-bottom: 5px;
+    }
+    
+/*
+
+SECTION
+
+*/
+    section {
+        padding-bottom: 70px;
+    }
+    
+/*
+
+HOME
+
+*/
+    
+    .home_image {
+        height: 600px;   
+    }
+    
+    .home_image_mainTitle {
+        font-size: 3em;
+    }
+
+    .home_image_subTitle {
+        font-size: 1em;
+    }
+    
+    .home_description {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .home_description_design_agency_middle {
+        width: 55%;
+        max-width: 310px;
+    }
+    
+    .home_description_design_agency_text {
+        font-size: 8pt;
+    }
+/*
+
+WORK
+
+*/
+    .work_description {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .work_gallery > figure {
+        width: 33.33%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .work_gallery > figure > div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90%;
+        max-width: 370px;
+        height: 370px;
+        margin-left: 15px;
+        margin-right: auto;
+    }
+    
+    .work_gallery > figure > figcaption {
+        margin-left: 15px;
+
+    }
+    
+    .work_services_image {
+        width: 49%;
+        height: 600px;
+    }
+    
+    .work_services_image_title {
+    background: white;
+    width: 30%;
+    height: 15%;
+    transform: translate(-50%, -50%);
+    padding-top: 3%;
+    }
+    
+    .work_services_image_title > hr {
+        width: 20%;
+    }
+    
+    .work_services_list {
+        width: 50%;
+        height: 600px;
+        padding-left: 1%;
+        margin-top: 0%;
+    }
+    
+/*
+
+BLOG
+
+*/    
+    
+    .blog_gallery > figure {
+        width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog_gallery > figure > div {
+        width: 100%;
+        height: 200px;
+    }
+
+    .blog_gallery > figure > figcaption {
+        padding: 1.5em;
+        padding-left: 0em;
+    }
+    
+    .blog_work {
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+    }
+    
+/*
+
+CONTACT
+
+*/  
+
+    .contact_list > li {
+        padding-bottom: 50px;
+    }
